@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(20), // Top-left rounded corner
                 ),
-                color: Colors.white, // Change background color to white
+                color: Colors.white,
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
