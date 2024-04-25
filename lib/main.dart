@@ -3,6 +3,7 @@ import 'package:flutter_application_1/enterNumberScreen.dart';
 import 'package:flutter_application_1/homepage.dart';
 import 'package:flutter_application_1/loginpage.dart';
 import 'package:flutter_application_1/otpVerificationScreen.dart';
+import 'package:flutter_application_1/verifiedScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: OtpVerificationScreen(),
+      home: EnterNumberScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
