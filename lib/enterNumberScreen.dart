@@ -159,7 +159,7 @@ class _EnterNumberScreenState extends State<EnterNumberScreen> {
                               ),
                             ),
                             child: Text(
-                              "Generate OTP",
+                              "GENERATE OTP",
                               style:
                                   TextStyle(color: Colors.white, fontSize: 17),
                             ),
