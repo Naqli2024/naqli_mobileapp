@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/enterNumberScreen.dart';
 import 'package:flutter_application_1/homepage.dart';
 import 'package:flutter_application_1/loginpage.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      home: MyHomePage(),
+      home: EnterNumberScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
