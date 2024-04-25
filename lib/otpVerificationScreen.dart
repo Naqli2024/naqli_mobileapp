@@ -36,46 +36,6 @@ class _OtpVerificationScreenState extends State<OtpVerificationScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawer(
-        child: Column(
-          children: <Widget>[
-            SizedBox(height: 20),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Container(
-                  alignment: Alignment.centerRight,
-                  padding: EdgeInsets.only(right: 10, top: 10),
-                  child: IconButton(
-                    icon: Icon(Icons.close),
-                    onPressed: () {
-                      Navigator.pop(context); // Close the drawer
-                    },
-                  ),
-                ),
-              ],
-            ),
-            ListTile(
-              title: Text(
-                'Contact Us',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-              ),
-              onTap: () {
-                // Update the UI based on the selection.
-              },
-            ),
-            ListTile(
-              title: Text(
-                'Help',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
-              ),
-              onTap: () {
-                // Update the UI based on the selection.
-              },
-            ),
-          ],
-        ),
-      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
